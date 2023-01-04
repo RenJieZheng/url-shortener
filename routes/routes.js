@@ -7,6 +7,10 @@ router.get("/", (req, res) => {
     res.sendFile(homepage);
 });
 
+router.get("/:shorturl", (req, res) => {
+    res.send(`/${req.params.shorturl} endpoint`);
+});
+
 router.get("/shorturl", (req, res) => {
     console.log(req.query);
     res.send("/shorturl get endpoint");
