@@ -1,0 +1,30 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "url shortener microservice",
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \\\"No test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongoose": "^6.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenJieZheng/url-shortener.git"
+  },
+  "author": "Ren Jie Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenJieZheng/url-shortener/issues"
+  },
+  "homepage": "https://github.com/RenJieZheng/url-shortener#readme"
+}

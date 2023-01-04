@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Shortener</title>
+        <link href="/public/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <head>
+            <h1>URL Shortener Microservice</h1>
+        </head>
+        <main>
+            <section>
+                <form action="/shorturl" method="POST">
+                    <fieldset>
+                        <legend>Create new shortened URL</legend>
+                        <label for="url_input">URL:</label>
+                        <input id="url_input" type="text" name="input_url" /> <br>
+                        <input type="submit" value="Shorten URL" />
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <form action="/shorturl" method="GET">
+                    <fieldset>
+                        <legend>Find existing shortened URL</legend>
+                        <label for="url_input">URL:</label>
+                        <input id="url_input" type="text" name="input_url" /> <br>
+                        <input type="submit" value="Find URL" />
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>URL Shortener Microservice By <a href="">Ren Jie Zheng</a></p>
+        </footer>
+    </body>
+</html>
